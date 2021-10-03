@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import ScratchPad from "./ScratchPad";
+import "./App.css";
 
-function App() {
+const App = () => {
+  const [isEditing, setIsEditing] = useState(false);
+
+  const clickHandler = () => {
+    setIsEditing((isEditing) => !isEditing);
+  };
+
+  const buttonText = isEditing ? "Done" : "Edit";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <>
+      <header>
+        <a class="logo" href="/">
+          Scratchpad
         </a>
+        <button onClick={clickHandler}>{buttonText}</button>
       </header>
-    </div>
+      <ScratchPad isEditing={isEditing} />
+    </>
   );
-}
+};
 
 export default App;

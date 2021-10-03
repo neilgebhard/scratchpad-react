@@ -1,0 +1,30 @@
+*Italic*
+
+**Bold**
+
+# Heading
+
+## Heading 2
+
+[Link](http://www.google.com)
+
+![Image](/dog.jpg)
+
+> Blockquote	 	
+
+* List
+* List
+* List
+
+1. One
+2. Two
+3. Three
+
+Horizontal rule:
+***
+
+~strikethrough~
+
+* Lists
+* [ ] todo
+* [x] done
