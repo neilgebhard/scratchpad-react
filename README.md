@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5faf3dd2-a208-4407-b0c0-83d3c04549ae/deploy-status)](https://app.netlify.com/sites/neilsscratchpad/deploys)
+
 ## Scratchpad Notes App
 
 - [General info](#general-info)
@@ -28,6 +30,6 @@ $ npm start
 
 ## Demo
 
-The live demo is deployed on Netlify: https://neilsscratchpad.netlify.com/
+The live demo is deployed on Netlify: https://neilsscratchpad.netlify.app
 
 ![Web app screenshot](screenshot.png)
